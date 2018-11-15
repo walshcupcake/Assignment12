@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/assignment12.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Questrial" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/assignment12.js"></script>
+</head>
+<body>
+
+<div id="everything">
+	<h1>3 big cities</h1>
+	<h3>Lots of weather</h3>
+	<h4>Click on the button displaying the temperature to hide the image.</h4>
+	<h6>Also, the text in the button will turn white once clicked if it is cold</h6>
+	
+	<div class="nyc">
+		<img src="images/nycweather.jpg" id="nycpic" alt="Snowy NYC busy scene in Time Square">
+	</div>
+		<button id="1" class="toggle1" onclick="myFunction1()" > New York </button>
+		<script type="text/javascript">
+			function myFunction1() {
+				document.getElementById("1").style.color = "white";
+			}
+		</script>
+
+	<div class="paris">
+		<img src="images/paris.jpg" id="parispic" alt="Cloudy scene with the eiffel tower">
+	</div>
+		<button id="2" class="toggle2" onclick="myFunction2()"> Paris </button>
+		<script type="text/javascript">
+			function myFunction2() {
+				document.getElementById("2").style.color = "white";
+			}
+		</script>
+
+	<div class="london">
+		<img src="images/londong.jpg" id="londonpic" alt="Busy, rainy, london stree with red bus on the side">
+	</div>
+		<button id="3" class="toggle3" onclick="myFunction3()"> London </button>
+		<script type="text/javascript">
+			function myFunction3() {
+				document.getElementById("3").style.color = "white";
+			}
+		</script>
+</div>
+
+
+</body>
+</html>

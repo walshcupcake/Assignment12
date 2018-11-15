@@ -1,0 +1,81 @@
+#nycpic {
+	width: 50%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#londonpic {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#parispic {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.toggle1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:hsl(223, 5%, 91%);
+	border-radius: 30px;
+}
+
+
+.toggle2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:hsl(195, 30%, 85%);
+	border-radius: 30px;
+}
+
+
+
+.toggle3{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:hsl(223, 100%, 71%);
+	border-radius: 30px;
+}
+
+div {
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	padding: 0px;
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	padding: 0px;
+}
+
+h6 {
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	padding: 0px;
+}
+
+body {
+	background: lightblue;
+}
